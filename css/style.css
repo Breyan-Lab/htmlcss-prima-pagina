@@ -1,0 +1,105 @@
+/* fase II: un obiettivo alla volta */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* header e menu */
+header {
+    background-color: #1e3c6e;
+    padding: 15px 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #1e3c6e;
+}
+
+h2 {
+    border-bottom: 2px solid #ffd166;
+    padding-bottom: 5px;
+}
+
+/* classe usata su più sezioni */
+.box {
+    background-color: white;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+img {
+    border-radius: 6px;
+}
+
+/* tabella */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #1e3c6e;
+    color: white;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* id usato una sola volta */
+#ultima-sezione {
+    border: 2px dashed #1e3c6e;
+}
+
+/* form contatti */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1e3c6e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+/* span è inline: si colora solo il testo */
+footer span {
+    color: #1e3c6e;
+    font-weight: bold;
+}
