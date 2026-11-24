@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap');
+
 /* fase II: un obiettivo alla volta */
 
 body {
@@ -103,3 +105,27 @@ footer span {
     color: #1e3c6e;
     font-weight: bold;
 }
+
+/* ===== TEMA NERO E ORO ===== */
+:root {
+    --nero: #0d0d0d;
+    --grafite: #1a1a1a;
+    --grafite-chiaro: #262626;
+    --oro: #d4af37;
+    --oro-chiaro: #f1d48b;
+    --testo: #f3eee0;
+}
+body { background-color: var(--nero); color: var(--testo); }
+header { background-color: var(--grafite); border-bottom: 1px solid var(--oro); }
+nav a:hover { color: var(--oro); }
+h1, h2, h3, h4 { font-family: "Cinzel", serif; color: var(--oro); }
+h2 { border-bottom-color: var(--oro); }
+.box { background-color: var(--grafite); border: 1px solid #3a3220; }
+th { background-color: var(--oro); color: var(--nero); }
+td { border-bottom: 1px solid #333; }
+#ultima-sezione { border-color: var(--oro); }
+a { color: var(--oro-chiaro); }
+input, textarea { background-color: var(--grafite-chiaro); color: var(--testo); border-color: #444; }
+button { background-color: var(--oro); color: var(--nero); font-weight: bold; }
+footer { background-color: var(--grafite); color: var(--testo); border-top: 1px solid var(--oro); }
+footer span { color: var(--oro); }
